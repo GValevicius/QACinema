@@ -5,8 +5,8 @@ import java.time.LocalDate;
 
 public abstract class Ticket implements CinemaData {
 
-    public String movieName;
-    public DayOfWeek showDate;
+    private String movieName;
+    private DayOfWeek showDate;
 
     public Ticket(String movieName) {
         this.movieName = movieName;

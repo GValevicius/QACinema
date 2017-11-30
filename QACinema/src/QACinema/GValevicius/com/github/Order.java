@@ -6,8 +6,7 @@ import java.util.List;
 
 public class Order {
 
-
-    List<Ticket> list;
+    private List<Ticket> list;
 
     public Order() {
         list = new ArrayList<>();
